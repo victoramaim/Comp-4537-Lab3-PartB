@@ -1,0 +1,19 @@
+{
+  "name": "lab-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoramaim/Comp-4537-Lab3-PartB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoramaim/Comp-4537-Lab3-PartB/issues"
+  },
+  "homepage": "https://github.com/victoramaim/Comp-4537-Lab3-PartB#readme"
+}
