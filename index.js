@@ -11,7 +11,7 @@ http.createServer(function (req, res) {
     if (pathname === '/COMP4537/labs/3/getDate' && query.name) {
         const name = query.name;
         const currentTime = getDate();
-        const message = `<h1 style="color: blue;">${greetMessage(name)}, ${currentTime}</h1>`;
+        const message = `<h1 style="color: blue;">${greetMessage(name)} ${currentTime}</h1>`;
         
         res.writeHead(200, {'Content-Type': 'text/html'});
         res.end(message);
