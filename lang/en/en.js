@@ -8,6 +8,4 @@ module.exports.greetMessage = function(name) {
     return `${messages.HELLO} ${name}${messages.RESULT}`;
 };
 
-// module.exports.SERVERMESSAGE = messages.SERVERMESSAGE;
-
 module.exports.messages = messages;

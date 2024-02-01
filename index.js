@@ -17,8 +17,6 @@ http.createServer(function (req, res) {
         res.end(message);
     } else {
         res.writeHead(404, {'Content-Type': 'text/plain'});
-        res.end('Add a name to the query string. Example: http://localhost:8000/COMP4537/labs/3/getDate?name=Victor Vasconcellos');
+        res.end('Add a name to the query string. Example: https://clownfish-app-oifvd.ondigitalocean.app/COMP4537/labs/3/getDate?name=Victor Vasconcellos');
     }
 }).listen(process.env.PORT || 8000);
-
-console.log('Server running and listening on port 8000. Access http://localhost:8000/ in your browser.');
