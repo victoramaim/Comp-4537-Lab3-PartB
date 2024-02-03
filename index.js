@@ -7,7 +7,7 @@ http.createServer(function (req, res) {
     const parsedUrl = url.parse(req.url, true);
     const { pathname, query } = parsedUrl;
 
-    // ChatGPT was used to generate the following if statement
+    // ChatGPT was used as reference to generate the following if statement
     if (pathname === '/COMP4537/labs/3/getDate' && query.name) {
         const name = query.name;
         const currentTime = getDate();

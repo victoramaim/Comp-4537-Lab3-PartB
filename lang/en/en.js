@@ -4,6 +4,7 @@ const messages = {
     SERVERMESSAGE: 'Server current date and time is: '
 };
 
+// ChatGPT was used to generate the following message
 module.exports.greetMessage = function(name) {
     return `${messages.HELLO} ${name}${messages.RESULT}`;
 };
